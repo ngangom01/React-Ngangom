@@ -27,10 +27,9 @@ const MyStack = () => {
 const stack = MyStack();
 stack.push("NAOBI");
 stack.push("NGANGOM");
-stack.push(12);
-stack.push(13);
+stack.push("SAYS");
+stack.push("HELLO");
 stack.print();
-stack.pop();
 stack.print();
 console.log(stack.size());
 
