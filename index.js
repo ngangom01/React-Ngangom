@@ -2,8 +2,8 @@ const MyStack = () => {
   const storage = {};
   let index = 0;
 
-  const push = num => {
-    storage[index] = num;
+  const push = name => {
+    storage[index] = name;
     index ++;
     return;
   };
@@ -25,10 +25,12 @@ const MyStack = () => {
 };
 
 const stack = MyStack();
-stack.push(10);
-stack.push(11);
+stack.push("NAOBI");
+stack.push("NGANGOM");
 stack.push(12);
+stack.push(13);
 stack.print();
 stack.pop();
 stack.print();
 console.log(stack.size());
+
