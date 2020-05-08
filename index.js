@@ -25,10 +25,10 @@ const MyStack = () => {
 };
 
 const stack = MyStack();
-stack.push("NAOBI");
-stack.push("NGANGOM");
-stack.push("SAYS");
-stack.push("HELLO");
+stack.push(1);
+stack.push(2);
+stack.push(3);
+stack.push(4);
 stack.print();
 stack.print();
 console.log(stack.size());
